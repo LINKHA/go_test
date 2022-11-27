@@ -3,4 +3,4 @@ COPY main /main
 WORKDIR /
 EXPOSE  8999
 
-ENTRYPOINT [ "/go_test" ]
+ENTRYPOINT [ "/main" ]
